@@ -1,1 +1,9 @@
-<ObjectMap version="1" />
+<ObjectMap version="1">
+  <ObjectMapEntry id="VA" locator="//BrowserApplication" urlPattern="*vahomolog.leroymerlin.com.br*">
+    <ObjectMapEntry id="Login" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents='Avançar']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='j_password']" />
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id='j_username']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
