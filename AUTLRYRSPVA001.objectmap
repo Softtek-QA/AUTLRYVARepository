@@ -1,15 +1,54 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="VA" locator="//BrowserApplication" urlPattern="*vahomolog.leroymerlin.com.br*">
+    <ObjectMapEntry id="CadastroClientesDados" locator="//BrowserWindow">
+      <ObjectMapEntry id="AvancarPaginaCadastro" locator="//BUTTON[@textContents='Avançar']" />
+      <ObjectMapEntry id="Bairro" locator="//INPUT[@id='bairro-0-pf']" />
+      <ObjectMapEntry id="CEP" locator="//INPUT[@id='cep-0-pf']" />
+      <ObjectMapEntry id="Cidade" locator="//INPUT[@id='cidade-0-pf']" />
+      <ObjectMapEntry id="ClienteEstrangeiro" locator="//INPUT[@id='foreign']" />
+      <ObjectMapEntry id="Complemento" locator="//INPUT[@id='complemento-0-pf']" />
+      <ObjectMapEntry id="Email" locator="//INPUT[@id='e-mail-pf']" />
+      <ObjectMapEntry id="Estado" locator="//SELECT[@id='estado-0-pf']" />
+      <ObjectMapEntry id="InscricaoEstadual" locator="//INPUT[@id='inscricaoestadual-pf']" />
+      <ObjectMapEntry id="NaoSeiCEPPesquisa" locator="//BUTTON[@textContents='Não sei meu CEP']" />
+      <ObjectMapEntry id="Nome" locator="//INPUT[@id='nome-pf']" />
+      <ObjectMapEntry id="NomeRua" locator="//INPUT[@id='rua-0-pf']" />
+      <ObjectMapEntry id="NumeroCasa" locator="//INPUT[@id='numero-0-pf']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//INPUT[@id='cpf-cnpj']" />
+      <ObjectMapEntry id="NumeroTelefone" locator="//INPUT[@id='telefone-0-pf']" />
+      <ObjectMapEntry id="Referencia" locator="//INPUT[@id='referencia-0-pf']" />
+      <ObjectMapEntry id="ResultadoPesquisaCEP" locator="//UL[@class='list result-list']" />
+      <ObjectMapEntry id="TipoEndereco" locator="//SELECT[@id='tipo-imovel-0-pf']" />
+      <ObjectMapEntry id="TipoImovelResidencial" locator="//SELECT[@id='tipo-residencia-0-pf']" />
+      <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='tipo-0-pf']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="CadastroClientesDocs" locator="//BrowserWindow">
+      <ObjectMapEntry id="ClienteEstrangeiro" locator="//INPUT[@id='foreign']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//INPUT[@id='cpf-cnpj']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="CadastroClientesInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoAdicionarNovo" locator="//A[@textContents='Adicionar Novo']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="Login" locator="//BrowserWindow">
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='term']" />
       <ObjectMapEntry id="Senha" locator="//INPUT[@id='j_password']" />
       <ObjectMapEntry id="Usuario" locator="//INPUT[@id='j_username']" />
     </ObjectMapEntry>
-    <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
+    <ObjectMapEntry id="PesquisaCEP" locator="//BrowserWindow">
+      <ObjectMapEntry id="Bairro" locator="//INPUT[@id='district']" />
+      <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
+      <ObjectMapEntry id="Cidade" locator="//INPUT[@id='local']" />
+      <ObjectMapEntry id="Endereco" locator="//INPUT[@id='street']" />
+      <ObjectMapEntry id="ItemResultadoPesqSelecionado" locator="//FORM[@class='col-xs-12']/DIV[@class='row'][5]/DIV[@class='col-xs-12 margin-top']//LI[2]" />
+      <ObjectMapEntry id="UF" locator="//SELECT[@id='uf']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicialLoja" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoCarrinho" locator="//I[@class='glyph glyph-cart']" />
       <ObjectMapEntry id="BotaoLoja" locator="//I[@class='glyph glyph-location']" />
+      <ObjectMapEntry id="MenuPrincipal" locator="//DIV[@textContents='menu']" />
       <ObjectMapEntry id="Sair" locator="//I[@class='glyph glyph-signout *']" />
+      <ObjectMapEntry id="SubMenuClientes" locator="//STRONG[@textContents='Clientes']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>
