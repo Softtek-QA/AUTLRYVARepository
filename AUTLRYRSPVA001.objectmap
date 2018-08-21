@@ -1,7 +1,14 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="VA" locator="//BrowserApplication" urlPattern="*vahomolog.leroymerlin.com.br*">
     <ObjectMapEntry id="CadastroClientesDados" locator="//BrowserWindow">
+      <ObjectMapEntry id="AceitaMalaDiretNao" locator="//DIV[@class='col-xs-3 col-md-2 co*'][2]" />
+      <ObjectMapEntry id="AceitaMalaDiretSim" locator="//DIV[@class='col-xs-3 col-md-2 co*']" />
+      <ObjectMapEntry id="AceitaPropagandaNao" locator="//DIV[@class='col-xs-3 col-md-4 co*'][2]" />
+      <ObjectMapEntry id="AceitarOfertaTelefoneNao" locator="//INPUT[@id='oferta-telefone-nao-*']" />
+      <ObjectMapEntry id="AceitarOfertaTelefoneSim" locator="//INPUT[@id='oferta-telefone-sim-*']" />
+      <ObjectMapEntry id="AceitarPropagandasSim" locator="//DIV[@class='col-xs-3 col-md-4 co*']" />
       <ObjectMapEntry id="AvancarPaginaCadastro" locator="//BUTTON[@textContents='Avançar']" />
+      <ObjectMapEntry id="AvancarPaginaCadastro2" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="Bairro" locator="//INPUT[@id='bairro-0-pf']" />
       <ObjectMapEntry id="CEP" locator="//INPUT[@id='cep-0-pf']" />
       <ObjectMapEntry id="Cidade" locator="//INPUT[@id='cidade-0-pf']" />
