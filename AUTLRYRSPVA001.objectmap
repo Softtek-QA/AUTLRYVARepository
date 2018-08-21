@@ -42,6 +42,7 @@
       <ObjectMapEntry id="Senha" locator="//INPUT[@id='j_password']" />
       <ObjectMapEntry id="Usuario" locator="//INPUT[@id='j_username']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="Maximizar" locator="//AccessibleControl[@caption='Maximizar'][2]" />
     <ObjectMapEntry id="PesquisaCEP" locator="//BrowserWindow">
       <ObjectMapEntry id="Bairro" locator="//INPUT[@id='district']" />
       <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
