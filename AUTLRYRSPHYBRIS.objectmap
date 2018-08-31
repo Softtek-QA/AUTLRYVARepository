@@ -1,0 +1,38 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="HMC" locator="//BrowserApplication">
+    <ObjectMapEntry id="AddressesConfiguration" locator="//BrowserWindow">
+      <ObjectMapEntry id="EMail" locator="//INPUT[@id='Content/StringEditor*'][5]" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="AdministrationConfiguration" locator="//BrowserWindow">
+      <ObjectMapEntry id="Type" locator="//TABLE[@title='itemtype']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="CloseApplication" locator="" />
+    <ObjectMapEntry id="GeneralConfigurations" locator="//BrowserWindow">
+      <ObjectMapEntry id="CustomerID" locator="//INPUT[@name='MC11x271_setvalue']" />
+      <ObjectMapEntry id="ID" locator="//INPUT[@name='MC11x266_setvalue']" />
+      <ObjectMapEntry id="Name" locator="//INPUT[@name='MC11x268_setvalue']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Maximizar" locator="//AccessibleControl[@caption='Maximizar'][2]" />
+    <ObjectMapEntry id="Menus" locator="//BrowserWindow">
+      <ObjectMapEntry id="Addresses" locator="//SPAN[@textContents='Addresses']" />
+      <ObjectMapEntry id="Administrator" locator="//SPAN[@textContents='Administration']" />
+      <ObjectMapEntry id="General" locator="//SPAN[@textContents='General']" />
+      <ObjectMapEntry id="Password" locator="//SPAN[@textContents='Password']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="PasswordConfiguration" locator="//BrowserWindow">
+      <ObjectMapEntry id="NewPassword" locator="//INPUT[@id='Content/EncryptedPas*']" />
+      <ObjectMapEntry id="PasswordRepeat" locator="//INPUT[@id='Content/EncryptedPas*'][2]" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="B2BCustomer" locator="//TD[@textContents='B2B Customer']" />
+      <ObjectMapEntry id="CreateUser" locator="//TD[@textContents='Create:']" />
+      <ObjectMapEntry id="Customers" locator="//A[@textContents='Customers']" />
+      <ObjectMapEntry id="User" locator="//DIV[@class='icon plus'][4]" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaLogin" locator="//BrowserWindow">
+      <ObjectMapEntry id="Login" locator="//SPAN[@id='Main_label']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='Main_password']" />
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id='Main_user']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>

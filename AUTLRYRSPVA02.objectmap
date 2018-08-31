@@ -1,0 +1,58 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="VA02" locator="//BrowserApplication">
+    <ObjectMapEntry id="ConfirmacaoLogin" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@id=&apos;advancedReAutenticat*&apos;]"/>
+      <ObjectMapEntry id="Senha" locator="//INPUT[@name=&apos;password&apos;]"/>
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@name=&apos;username&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption=&apos;Fechar&apos;][3]"/>
+    <ObjectMapEntry id="FinalizarAplicacao" locator="//BrowserWindow">
+      <ObjectMapEntry id="Sair" locator="//I[@class=&apos;glyph glyph-signout *&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="FluxoSaida" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents=&apos;Avançar&apos;]"/>
+      <ObjectMapEntry id="OpcaoCaixa" locator="//INPUT[@id=&apos;caixa&apos;]"/>
+      <ObjectMapEntry id="OpcaoRetirada" locator="//INPUT[@id=&apos;retirada&apos;]"/>
+      <ObjectMapEntry id="TipoRetirada" locator="//SELECT[@id=&apos;retire-option-extern&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Login" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents=&apos;Avançar&apos;]"/>
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id=&apos;j_password&apos;]"/>
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id=&apos;j_username&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Maximizar" locator="//AccessibleControl[@caption=&apos;Maximizar&apos;][2]"/>
+    <ObjectMapEntry id="Pedidos" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents=&apos;Avançar&apos;]"/>
+      <ObjectMapEntry id="ConverterPedido" locator="//BUTTON[@id=&apos;btgenerateorder&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="PesquisaClienteCadastrado" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoPesquisarCliente" locator="//I[@class=&apos;glyph glyph-magnifie*&apos;][2]"/>
+      <ObjectMapEntry id="CampoPesquisaCliente" locator="//INPUT[@name=&apos;document&apos;]"/>
+      <ObjectMapEntry id="ClientePesquisado" locator="//LI[@class=&apos;list-item&apos;]"/>
+      <ObjectMapEntry id="IconeModoDePesquisa" locator="//DIV[@class=&apos;caret&apos;]"/>
+      <ObjectMapEntry id="ItemCPF_CNPJ" locator="//LABEL[@textContents=&apos;CPF/CNPJ&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaCliente" locator="//BrowserWindow">
+      <ObjectMapEntry id="AvancarTelaCliente" locator="//BUTTON[@textContents=&apos;Avançar&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicialLoja" locator="//BrowserWindow">
+      <ObjectMapEntry id="CodigoItem" locator="//INPUT[@name=&apos;eanOrCode&apos;]"/>
+      <ObjectMapEntry id="CriarCarrinho" locator="//A[@textContents=&apos;Criar carrinho...&apos;]"/>
+      <ObjectMapEntry id="FecharPopUpAprovacaoComercial" locator="//I[@class=&apos;modal-close glyph gl*&apos;]"/>
+      <ObjectMapEntry id="PesquisarProduto" locator="//BUTTON[@textContents=&apos;+&apos;]"/>
+      <ObjectMapEntry id="QuantidadeItem" locator="//INPUT[@name=&apos;qty&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaMeioPagamento" locator="//BrowserWindow">
+      <ObjectMapEntry id="Avancar" locator="//BUTTON[@id=&apos;id-bt-advanced&apos;]"/>
+      <ObjectMapEntry id="MeioPagamento" locator="//SELECT[@id=&apos;payment-method-0&apos;]"/>
+      <ObjectMapEntry id="PlanoPagamento" locator="//SELECT[@id=&apos;payment-plan-0&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaResumo" locator="//BrowserWindow">
+      <ObjectMapEntry id="FecharPopUp" locator="//I[@class=&apos;modal-close glyph gl*&apos;]"/>
+      <ObjectMapEntry id="Finalizar" locator="//BUTTON[@textContents=&apos;Finalizar&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Validacao" locator="">
+      <ObjectMapEntry id="ValidacaoPedido" locator="//H3[@textContents=&apos;Pedido *&apos;]"/>
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
