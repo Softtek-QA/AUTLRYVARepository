@@ -1,1 +1,23 @@
-<ObjectMap version="1" />
+<ObjectMap version="1">
+  <ObjectMapEntry id="HMC" locator="//BrowserApplication">
+    <ObjectMapEntry id="Login" locator="//BrowserWindow">
+      <ObjectMapEntry id="Login" locator="//A[@id='Main_a']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='Main_password']" />
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id='Main_user']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="Customers" locator="//A[@textContents='Customers']" />
+      <ObjectMapEntry id="User" locator="//A[@textContents='User']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="User" locator="//BrowserWindow">
+      <ObjectMapEntry id="DefaultB2BUnit" locator="//TABLE[@title='defaultB2BUnit']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="EntrarUsuarioPerfil" locator="//SPAN[@id='Content/OrganizerLis*']" />
+      <ObjectMapEntry id="ID" locator="//BrowserWindow//INPUT[@id='Content/StringEditor*']" />
+      <ObjectMapEntry id="LmStore" locator="//TABLE[@title='lmStore']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="MenuAdministracao" locator="//SPAN[@textContents='Administration']" />
+      <ObjectMapEntry id="Salvar" locator="//A[@id='Content/ImageToolbar*']" />
+      <ObjectMapEntry id="Search" locator="//A[@name='MC23x220_!search']" />
+      <ObjectMapEntry id="Search1" locator="//A[@name='MC23x220_!search']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
