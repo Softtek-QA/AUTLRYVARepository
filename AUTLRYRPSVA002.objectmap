@@ -47,8 +47,12 @@
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaMeioPagamento" locator="//BrowserWindow">
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@id='id-bt-advanced']" />
+      <ObjectMapEntry id="Codigo" locator="//INPUT[@id='payment-card-code-0']" />
       <ObjectMapEntry id="MeioPagamento" locator="//SELECT[@id='payment-method-0']" />
+      <ObjectMapEntry id="NomeTitular" locator="//INPUT[@id='payment-card-custome*']" />
+      <ObjectMapEntry id="NumeroCartao" locator="//INPUT[@id='payment-card-number-*']" />
       <ObjectMapEntry id="PlanoPagamento" locator="//SELECT[@id='payment-plan-0']" />
+      <ObjectMapEntry id="Validade" locator="//INPUT[@id='payment-card-expirat*']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaResumo" locator="//BrowserWindow">
       <ObjectMapEntry id="FecharPopUp" locator="//I[@class='modal-close glyph gl*']" />
