@@ -34,14 +34,19 @@
       <ObjectMapEntry id="ClientePesquisado" locator="//LI[@class='list-item']" />
       <ObjectMapEntry id="IconeModoDePesquisa" locator="//DIV[@class='caret']" />
       <ObjectMapEntry id="ItemCPF_CNPJ" locator="//LABEL[@textContents='CPF/CNPJ']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//INPUT[@name='document']" />
+      <ObjectMapEntry id="NumeroPassaporte" locator="//INPUT[@name='passport']" />
+      <ObjectMapEntry id="Passaporte" locator="//LABEL[@textContents='Passaporte']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaCliente" locator="//BrowserWindow">
       <ObjectMapEntry id="AvancarTelaCliente" locator="//BUTTON[@textContents='Avançar']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaInicialLoja" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoCarrinhoCompra" locator="//DIV[@data-component='cart/dropdown']" />
       <ObjectMapEntry id="CodigoItem" locator="//INPUT[@name='eanOrCode']" />
       <ObjectMapEntry id="CriarCarrinho" locator="//A[@textContents='Criar carrinho...']" />
       <ObjectMapEntry id="FecharPopUpAprovacaoComercial" locator="//I[@class='modal-close glyph gl*']" />
+      <ObjectMapEntry id="IniciarNovoAtendimento" locator="//A[@textContents='Iniciar novo atendim*']" />
       <ObjectMapEntry id="PesquisarProduto" locator="//BUTTON[@textContents='+']" />
       <ObjectMapEntry id="QuantidadeItem" locator="//INPUT[@name='qty']" />
     </ObjectMapEntry>
