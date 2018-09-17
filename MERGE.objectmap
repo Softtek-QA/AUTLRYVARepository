@@ -1,0 +1,143 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="HMC" locator="//BrowserApplication">
+    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption='Fechar'][2]" />
+    <ObjectMapEntry id="Maximizar" locator="//AccessibleControl[@caption='Maximizar'][2]" />
+    <ObjectMapEntry id="Produto" locator="//BrowserWindow">
+      <ObjectMapEntry id="AbaPreco" locator="//SPAN[@textContents='Preços']" />
+      <ObjectMapEntry id="FiltroPesquisa" locator="//SELECT[@id='Content/GenericCondi*']" />
+      <ObjectMapEntry id="ItemPesquisado" locator="//IMG[@id='Content/OrganizerLis*']" />
+      <ObjectMapEntry id="NumeroItemPesquisado" locator="//INPUT[@id='Content/StringEditor*']" />
+      <ObjectMapEntry id="Pesquisar" locator="//SPAN[@id='Content/OrganizerSea*']" />
+      <ObjectMapEntry id="Salvar" locator="//DIV[@id='Content/ImageToolbar*']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaAdministracao" locator="//BrowserWindow">
+      <ObjectMapEntry id="AbaAdministracao" locator="//SPAN[@textContents='Administração']" />
+      <ObjectMapEntry id="Canal" locator="//TABLE[@title='Canal']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="CheckPointBotaoSalvar" locator="//DIV[@id='Content/ImageToolbarAction[organizer.editor.save.title]_label']" />
+      <ObjectMapEntry id="CodigoCategoria" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.ldapPrivBusinessCategoryCode]]_input']" />
+      <ObjectMapEntry id="CodigoCategoriaEmpPrivada" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.ldapPrivBusinessCategoryCode]]_input']" />
+      <ObjectMapEntry id="CodigoDepartamento" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.ldapPrivDepartmentCode]]_input']" />
+      <ObjectMapEntry id="Departamento" locator="//TABLE[@title='Departamento']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="ErroCadastroUsuario" locator="//DIV[@id='y_popupmessage']">
+        <ObjectMapEntry id="BotaoOk" locator="//SPAN[@id='y_popupmessage_ok_la*']" />
+        <ObjectMapEntry id="MsgErroCadastrosB2BFilial" locator="//TD[@textContents='O item não pôde ser *']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="GerenteAssociado" locator="//TABLE[@title='Gestor']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/AutocompleteReferenceEditor[in Content/Attribute[.manager]]']" />
+      <ObjectMapEntry id="icon" locator="//TD[@class='icon']" />
+      <ObjectMapEntry id="Loja" locator="//TABLE[@title='Loja']//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="MenuCriarUsuario" locator="//DIV[@id='Content/OrganizerCre*']" />
+      <ObjectMapEntry id="NumeroDepartamento" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.ldapDepartmentNumber]]_input']" />
+      <ObjectMapEntry id="Tipo" locator="//DIV[@id='Content/Autocomplete*']//INPUT[@id='ajaxinput_Content/Au*']" />
+      <ObjectMapEntry id="UnidadeB2BPadrao" locator="//DIV[@id='Content/Autocomplete*'][4]//INPUT[@id='ajaxinput_Content/Au*']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaCadastroClientes" locator="//BrowserWindow">
+      <ObjectMapEntry id="DescricaoUsuario" locator="//TEXTAREA[@id='Content/TextAreaEditor[in Content/Attribute[.description]]_textarea']" />
+      <ObjectMapEntry id="Geral" locator="//SPAN[@textContents='Geral']" />
+      <ObjectMapEntry id="IdUsuario" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.uid]]_input']" />
+      <ObjectMapEntry id="NomeUsuario" locator="//INPUT[@id='Content/StringEditor[in Content/Attribute[.name]]_input']" />
+      <ObjectMapEntry id="PerfilUsuario" locator="//INPUT[@id='ajaxinput_Content/AutocompleteReferenceEditor[in Content/GenericItemList]']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="Catalogo" locator="//DIV[@class='icon plus'][2]" />
+      <ObjectMapEntry id="Clientes" locator="//A[@textContents='Clientes']" />
+      <ObjectMapEntry id="ListaIdiomas" locator="//SELECT[@id='Explorer[languagesel*']" />
+      <ObjectMapEntry id="MenuGestaoUsuarios" locator="//TD[@textContents='Gerenciar usuários d*']" />
+      <ObjectMapEntry id="MenuLateralUsuarios" locator="//TABLE[@class='explorer tree']/TBODY//A[@textContents='Usuário']" />
+      <ObjectMapEntry id="NovoItem" locator="//DIV[@id='Toolbar/CreateNewToo*']" />
+      <ObjectMapEntry id="Produtos" locator="//A[@textContents='Produtos']" />
+      <ObjectMapEntry id="SubMenuClienteDropDown" locator="//DIV[@class='dropdown-main']//TD[@textContents='Cliente B2B']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaLogin" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoLogin" locator="//SPAN[@id='Main_label']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='Main_password']" />
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id='Main_user']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaPrecos" locator="//BrowserWindow">
+      <ObjectMapEntry id="Lojas" locator="//TABLE[@id='table_Content/GenericItemList_table']">
+        <ObjectMapEntry id="LM0001" locator="//DomListBox[@id='*PG_Interlagos]]_select']" />
+        <ObjectMapEntry id="LM0002" locator="//DomListBox[@id='*PG_Ribeirão Preto]]_select']" />
+        <ObjectMapEntry id="LM0003" locator="//DomListBox[@id='*PG_Campinas Dom Pedro]]_select']" />
+        <ObjectMapEntry id="LM0005" locator="//DomListBox[@id='*PG_Raposo Tavares]]_select']" />
+        <ObjectMapEntry id="LM0007" locator="//DomListBox[@id='*PG_Rio Norte]]_select']" />
+        <ObjectMapEntry id="LM0009" locator="//DomListBox[@id='*PG_Curitiba]]_select']" />
+        <ObjectMapEntry id="LM0010" locator="//DomListBox[@id='*PG_PG_S.C. do Sul]]_select']" />
+        <ObjectMapEntry id="LM0011" locator="//DomListBox[@id='*PG_Rio Barra]]_select']" />
+        <ObjectMapEntry id="LM0012" locator="//DomListBox[@id='*PG_Morumbi]]_select']" />
+        <ObjectMapEntry id="LM0013" locator="//DomListBox[@id='*PG_Brasília Sul]]_select']" />
+        <ObjectMapEntry id="LM0015" locator="//DomListBox[@id='*PG_S.J dos Campos]]_select']" />
+        <ObjectMapEntry id="LM0017" locator="//DomListBox[@id='*PG_Bangu]]_select']" />
+        <ObjectMapEntry id="LM0018" locator="//DomListBox[@id='*PG_Goiânia]]_select']" />
+        <ObjectMapEntry id="LM0019" locator="//DomListBox[@id='*PG_Porto Alegre]]_select']" />
+        <ObjectMapEntry id="LM0021" locator="//DomListBox[@id='*PG_Niterói]]_select']" />
+        <ObjectMapEntry id="LM0022" locator="//DomListBox[@id='*PG_Anhanguera]]_select']" />
+        <ObjectMapEntry id="LM0023" locator="//DomListBox[@id='*PG_Taguatinga]]_select']" />
+        <ObjectMapEntry id="LM0024" locator="//DomListBox[@id='*PG_Lar Center]]_select']" />
+        <ObjectMapEntry id="LM0026" locator="//DomListBox[@id='*PG_Jacarepagua]]_select']" />
+        <ObjectMapEntry id="LM0028" locator="//DomListBox[@id='*PG_Brasília Norte]]_select']" />
+        <ObjectMapEntry id="LM0029" locator="//DomListBox[@id='*PG_Uberlândia]]_select']" />
+        <ObjectMapEntry id="LM0032" locator="//DomListBox[@id='*PG_São Leopoldo]]_select']" />
+        <ObjectMapEntry id="LM0033" locator="//DomListBox[@id='*PG_Londrina]]_select']" />
+        <ObjectMapEntry id="LM0034" locator="//DomListBox[@id='*PG_S.J. do Rio Preto]]_select']" />
+        <ObjectMapEntry id="LM0035" locator="//DomListBox[@id='*PG_Curitiba][1]]_select']" />
+        <ObjectMapEntry id="LM0036" locator="//DomListBox[@id='*Belo Horizonte]]_select']" />
+        <ObjectMapEntry id="LM0038" locator="//DomListBox[@id='*PG_ Fortaleza]]_select']" />
+        <ObjectMapEntry id="LM0039" locator="//DomListBox[@id='*PG_São José SC]]_select']" />
+        <ObjectMapEntry id="LM0041" locator="//DomListBox[@id='*PG_Tatuapé]]_select']" />
+        <ObjectMapEntry id="LM0042" locator="//DomListBox[@id='*PG_Jaguaré]]_select']" />
+        <ObjectMapEntry id="LM0043" locator="//DomListBox[@id='*PG_E-commerce]]_select']" />
+        <ObjectMapEntry id="LM0044" locator="//DomListBox[@id='*PG_Campo Grande]]_select']" />
+        <ObjectMapEntry id="LM0045" locator="//DomListBox[@id='*PG_São Bernardo do Camp]]_select']" />
+        <ObjectMapEntry id="LM0046" locator="//DomListBox[@id='*PG_Tamboré]]_select']" />
+        <ObjectMapEntry id="LM0055" locator="//DomListBox[@id='*PG_Loja Taubaté]]_select']" />
+        <ObjectMapEntry id="LM0058" locator="//DomListBox[@id='*PG_Loja Tietê II]]_select']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="Precos" locator="//TABLE[@id='table_Content/GenericItemList_table']">
+        <ObjectMapEntry id="LM0001" locator="//INPUT[@id='*PG_Interlagos]]_input'][2]" />
+        <ObjectMapEntry id="LM0002" locator="//INPUT[@id='*PG_Ribeirão Preto]]_input'][2]" />
+        <ObjectMapEntry id="LM0003" locator="//INPUT[@id='*PG_Campinas Dom Pedro]]_input'][2]" />
+        <ObjectMapEntry id="LM0005" locator="//INPUT[@id='*PG_Raposo Tavares]]_input'][2]" />
+        <ObjectMapEntry id="LM0007" locator="//INPUT[@id='*PG_Rio Norte]]_input'][2]" />
+        <ObjectMapEntry id="LM0009" locator="//INPUT[@id='*PG_Curitiba]]_input'][2]" />
+        <ObjectMapEntry id="LM0010" locator="//INPUT[@id='*PG_PG_S.C. do Sul]]_input'][2]" />
+        <ObjectMapEntry id="LM0011" locator="//INPUT[@id='*PG_Rio Barra]]_input'][2]" />
+        <ObjectMapEntry id="LM0012" locator="//INPUT[@id='*PG_Morumbi]]_input'][2]" />
+        <ObjectMapEntry id="LM0013" locator="//INPUT[@id='*PG_Brasília Sul]]_input'][2]" />
+        <ObjectMapEntry id="LM0015" locator="//INPUT[@id='*PG_S.J dos Campos]]_input'][2]" />
+        <ObjectMapEntry id="LM0017" locator="//INPUT[@id='*PG_Bangu]]_input'][2]" />
+        <ObjectMapEntry id="LM0018" locator="//INPUT[@id='*PG_Goiânia]]_input'][2]" />
+        <ObjectMapEntry id="LM0019" locator="//INPUT[@id='*PG_Porto Alegre]]_input'][2]" />
+        <ObjectMapEntry id="LM0021" locator="//INPUT[@id='*PG_Niterói]]_input'][2]" />
+        <ObjectMapEntry id="LM0022" locator="//INPUT[@id='*PG_Anhanguera]]_input'][2]" />
+        <ObjectMapEntry id="LM0023" locator="//INPUT[@id='*PG_Taguatinga]]_input'][2]" />
+        <ObjectMapEntry id="LM0024" locator="//INPUT[@id='*PG_Lar Center]]_input'][2]" />
+        <ObjectMapEntry id="LM0026" locator="//INPUT[@id='*PG_Jacarepagua]]_input'][2]" />
+        <ObjectMapEntry id="LM0028" locator="//INPUT[@id='*PG_Brasília Norte]]_input'][2]" />
+        <ObjectMapEntry id="LM0029" locator="//INPUT[@id='*PG_Uberlândia]]_input'][2]" />
+        <ObjectMapEntry id="LM0032" locator="//INPUT[@id='*PG_São Leopoldo]]_input'][2]" />
+        <ObjectMapEntry id="LM0033" locator="//INPUT[@id='*PG_Londrina]]_input'][2]" />
+        <ObjectMapEntry id="LM0034" locator="//INPUT[@id='*PG_S.J. do Rio Preto]]_input'][2]" />
+        <ObjectMapEntry id="LM0035" locator="//INPUT[@id='*PG_Curitiba][1]]_input'][2]" />
+        <ObjectMapEntry id="LM0036" locator="//INPUT[@id='*Belo Horizonte]]_input'][2]" />
+        <ObjectMapEntry id="LM0038" locator="//INPUT[@id='*PG_ Fortaleza]]_input'][2]" />
+        <ObjectMapEntry id="LM0039" locator="//INPUT[@id='*PG_São José SC]]_input'][2]" />
+        <ObjectMapEntry id="LM0041" locator="//INPUT[@id='*PG_Tatuapé]]_input'][2]" />
+        <ObjectMapEntry id="LM0042" locator="//INPUT[@id='*PG_Jaguaré]]_input'][2]" />
+        <ObjectMapEntry id="LM0043" locator="//INPUT[@id='*PG_E-commerce]]_input'][2]" />
+        <ObjectMapEntry id="LM0044" locator="//INPUT[@id='*PG_Campo Grande]]_input'][2]" />
+        <ObjectMapEntry id="LM0045" locator="//INPUT[@id='*PG_São Bernardo do Camp]]_input'][2]" />
+        <ObjectMapEntry id="LM0046" locator="//INPUT[@id='*PG_Tamboré]]_input'][2]" />
+        <ObjectMapEntry id="LM0055" locator="//INPUT[@id='*PG_Loja Taubaté]]_input'][2]" />
+        <ObjectMapEntry id="LM0058" locator="//INPUT[@id='*PG_Loja Tietê II]]_input'][2]" />
+      </ObjectMapEntry>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaRemetentes" locator="//BrowserWindow">
+      <ObjectMapEntry id="AbaRemetentes" locator="//SPAN[@textContents='Remetentes']" />
+      <ObjectMapEntry id="Email" locator="//INPUT[@id='Content/StringEditor*'][5]" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaSenha" locator="//BrowserWindow">
+      <ObjectMapEntry id="AbaSenha" locator="//SPAN[@textContents='Senha']" />
+      <ObjectMapEntry id="NovaSenha" locator="//INPUT[@id='Content/EncryptedPas*']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='Content/EncryptedPas*'][2]" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
