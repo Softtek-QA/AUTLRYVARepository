@@ -90,6 +90,10 @@
       <ObjectMapEntry id="TipoImovel" locator="//SELECT[@id='tipo-residencia-0-pj']" />
       <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='tipo-0-pj']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption='Fechar'][2]" />
+    <ObjectMapEntry id="FinalizarAplicacao" locator="//BrowserWindow">
+      <ObjectMapEntry id="Sair" locator="//I[@class='glyph glyph-signout *']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="Login" locator="//BrowserWindow">
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='term']" />
@@ -102,15 +106,43 @@
       <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
       <ObjectMapEntry id="Cidade" locator="//INPUT[@id='local']" />
       <ObjectMapEntry id="Endereco" locator="//INPUT[@id='street']" />
+      <ObjectMapEntry id="Fechar" locator="//I[@class='modal-close glyph gl*']" />
       <ObjectMapEntry id="ItemResultadoPesqSelecionado" locator="//FORM[@class='col-xs-12']/DIV[@class='row'][5]/DIV[@class='col-xs-12 margin-top']//LI[2]" />
+      <ObjectMapEntry id="MsgStatusCEP" locator="//STRONG[@textContents='Não foi possível pes*']" />
       <ObjectMapEntry id="UF" locator="//SELECT[@id='uf']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaFinalPedidos" locator="//BrowserWindow">
+      <ObjectMapEntry id="NumeroPedido" locator="//H3[@textContents='Pedido *']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaInicialLoja" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoCarrinho" locator="//I[@class='glyph glyph-cart']" />
       <ObjectMapEntry id="BotaoLoja" locator="//I[@class='glyph glyph-location']" />
+      <ObjectMapEntry id="BotaoRecuperarPedido" locator="//A[@textContents='Recuperar pedido']" />
       <ObjectMapEntry id="MenuPrincipal" locator="//DIV[@textContents='menu']" />
       <ObjectMapEntry id="Sair" locator="//I[@class='glyph glyph-signout *']" />
       <ObjectMapEntry id="SubMenuClientes" locator="//STRONG[@textContents='Clientes']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaLoginHomog1" locator="//BrowserWindow">
+      <ObjectMapEntry id="EntrarLogin" locator="//BUTTON[@textContents='Entrar']" />
+      <ObjectMapEntry id="EntrarMenuInicial" locator="//A[@textContents='Entrar']" />
+      <ObjectMapEntry id="Senha" locator="//INPUT[@id='password']" />
+      <ObjectMapEntry id="Usuario" locator="//INPUT[@id='email']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaPedidos" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoFiltroPedido" locator="//DIV[@class='caret']" />
+      <ObjectMapEntry id="OpcoesDeFiltro" locator="//FORM[@name='formAdvancedSearch']">
+        <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
+        <ObjectMapEntry id="InformacoesDeFiltro" locator="//INPUT[@name='order_number']" />
+        <ObjectMapEntry id="OpcaoNumeroPedidoVenda" locator="//INPUT[@id='order_search_order_n*']" />
+      </ObjectMapEntry>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaPesquisaBoitata" locator="//BrowserWindow">
+      <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@textContents='Adicionar ao carrinh*']" />
+      <ObjectMapEntry id="MaterialPesquisa" locator="//INPUT[@name='term']" />
+      <ObjectMapEntry id="QuantBoitata" locator="" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Validacao" locator="//BrowserWindow">
+      <ObjectMapEntry id="Status" locator="//SPAN[@class='margin-bottom-small']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>
