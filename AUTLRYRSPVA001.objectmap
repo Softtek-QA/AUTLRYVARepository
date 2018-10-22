@@ -1,5 +1,33 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="VA" locator="//BrowserApplication" urlPattern="*vahomolog.leroymerlin.com.br*">
+    <ObjectMapEntry id="AtualizacaoDados" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoSalvar" locator="//BUTTON[@textContents='Salvar']" />
+      <ObjectMapEntry id="CategoriaDadosBasicos" locator="//LI[@class='list-item customer-s*'][1]">
+        <ObjectMapEntry id="AceitaNovidadesNao" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-nao']" />
+        <ObjectMapEntry id="AceitaNovidadesSim" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-sim']" />
+        <ObjectMapEntry id="Email" locator="//INPUT[@id='legalPerson.e-mail']" />
+        <ObjectMapEntry id="InscricaoEstadual" locator="//INPUT[@id='inscricaoestadual-pf']" />
+        <ObjectMapEntry id="Nome" locator="//INPUT[@id='legalPerson.nome']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="CategoriaDadosBasicosPJ" locator="//BrowserWindow">
+        <ObjectMapEntry id="Email" locator="//INPUT[@id='contact-email-0-pj']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="CategoriaDadosComplementares" locator="//LI[@class='list-item customer-s*'][2]">
+        <ObjectMapEntry id="DataNascimento" locator="//INPUT[@id='legalPerson.dateOfBi*']" />
+        <ObjectMapEntry id="EstadoCivil" locator="//SELECT[@id='legalPerson.estadoCi*']" />
+        <ObjectMapEntry id="Profissao" locator="//SELECT[@id='legalPerson.profissa*']" />
+        <ObjectMapEntry id="RG" locator="//INPUT[@id='legalPerson.rg']" />
+        <ObjectMapEntry id="Sexo" locator="//SELECT[@id='legalPerson.gender']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="DadoContatoPJ" locator="//SPAN[@textContents='Dados para contato']" />
+      <ObjectMapEntry id="DadosBasicos" locator="//SPAN[@textContents='Dados Básicos']" />
+      <ObjectMapEntry id="DadosComplementares" locator="//SPAN[@textContents='Dados Complementares']" />
+      <ObjectMapEntry id="DadosEnderecos" locator="//SPAN[@textContents='Endere*']" />
+      <ObjectMapEntry id="DadosTelefonicos" locator="//SPAN[@textContents='Dados Telef*']" />
+      <ObjectMapEntry id="Porte" locator="//SELECT[@id='juridicalPerson-port*']" />
+      <ObjectMapEntry id="Ramo" locator="//SELECT[@id='juridicalPerson-ramo']" />
+      <ObjectMapEntry id="RelacionamentoLeroyMerlin" locator="//SPAN[@textContents='Relacionamento Leroy*']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="CadastroClientesDados" locator="//BrowserWindow">
       <ObjectMapEntry id="AceitaMalaDiretNao" locator="//DIV[@class='col-xs-3 col-md-2 co*'][2]" />
       <ObjectMapEntry id="AceitaMalaDiretSim" locator="//DIV[@class='col-xs-3 col-md-2 co*']" />
@@ -111,6 +139,24 @@
       <ObjectMapEntry id="MsgStatusCEP" locator="//STRONG[@textContents='Não foi possível pes*']" />
       <ObjectMapEntry id="UF" locator="//SELECT[@id='uf']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="PJExcecao" locator="//BrowserWindow">
+      <ObjectMapEntry id="Cadastrar" locator="//BUTTON[@id='pjexception']" />
+      <ObjectMapEntry id="CNPJ" locator="//INPUT[@name='document']" />
+      <ObjectMapEntry id="DadosBasicos" locator="//SPAN[@textContents='Dados Básicos']" />
+      <ObjectMapEntry id="DadosParaContato" locator="//SPAN[@textContents='Dados para contato']" />
+      <ObjectMapEntry id="DadosTelefonicos" locator="//SPAN[@textContents='Dados Telefônicos']" />
+      <ObjectMapEntry id="Email" locator="//INPUT[@id='contact-email-pj']" />
+      <ObjectMapEntry id="Endereco" locator="//SPAN[@textContents='Endereço']" />
+      <ObjectMapEntry id="NomeCompleto" locator="//INPUT[@id='contact-name-pj']" />
+      <ObjectMapEntry id="NomeFantasia" locator="//INPUT[@id='nomefantasia-pj']" />
+      <ObjectMapEntry id="NovidadesEndereco" locator="//INPUT[@id='mala-direta-nao-pj']" />
+      <ObjectMapEntry id="NovidadesTelefone" locator="//INPUT[@id='juridicalPerson.cont*'][4]" />
+      <ObjectMapEntry id="NumeroCNPJ" locator="//INPUT[@id='cpf-cnpj']" />
+      <ObjectMapEntry id="NumeroTelefone" locator="//INPUT[@data-minlength='14']" />
+      <ObjectMapEntry id="Salvar" locator="//BUTTON[@name='button']" />
+      <ObjectMapEntry id="SubMenuPJExcecao" locator="//STRONG[@textContents='PJ Exceção']" />
+      <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='juridicalPerson-cont*']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="TelaFinalPedidos" locator="//BrowserWindow">
       <ObjectMapEntry id="NumeroPedido" locator="//H3[@textContents='Pedido *']" />
     </ObjectMapEntry>
@@ -141,7 +187,17 @@
       <ObjectMapEntry id="MaterialPesquisa" locator="//INPUT[@name='term']" />
       <ObjectMapEntry id="QuantBoitata" locator="" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="Televendas" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoEscolher" locator="//BUTTON[@id='buttonEscolher']" />
+      <ObjectMapEntry id="CampoSelecaoLoja" locator="//INPUT[@class='select2-search__fiel*']" />
+      <ObjectMapEntry id="SelecionarLoja" locator="//B[@role='presentation']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="Validacao" locator="//BrowserWindow">
+      <ObjectMapEntry id="CadastroFinalizado" locator="//DIV[@data-component='order/copy-order-cli*']" />
+      <ObjectMapEntry id="CEPInvalido" locator="//P[@textContents='Não foi encontrado o*']" />
+      <ObjectMapEntry id="DadosInvalidos" locator="//DIV[@textContents='Digite um documento *']" />
+      <ObjectMapEntry id="PJExcecao" locator="//H4[@textContents='Cadastre um CNPJ Exc*']" />
+      <ObjectMapEntry id="PJExecaoDuplicado" locator="//P[@textContents='Esse CNPJ já está ca*']" />
       <ObjectMapEntry id="Status" locator="//SPAN[@class='margin-bottom-small']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
