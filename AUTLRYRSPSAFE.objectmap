@@ -1,0 +1,9 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="SAFE" locator="//BrowserApplication">
+    <ObjectMapEntry id="TelaLogin" locator="//BrowserWindow">
+      <ObjectMapEntry id="Entrar" locator="//button[@id='btnLogin']" />
+      <ObjectMapEntry id="Senha" locator="//input[@id='txtSenha']" />
+      <ObjectMapEntry id="Usuario" locator="//input[@id='txtLogin']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
