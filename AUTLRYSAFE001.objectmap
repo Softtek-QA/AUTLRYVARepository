@@ -1,0 +1,24 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="SAFE" locator="//BrowserApplication">
+    <ObjectMapEntry id="000TelaValeTroca" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoPesquisar" locator="//FRAME[@name='principal']//SPAN[@id='btnPesquisarTexto']" />
+      <ObjectMapEntry id="ContainerValesTroca" locator="" />
+      <ObjectMapEntry id="ListaTiposDocsEstrangeiro" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoDocumento']" />
+      <ObjectMapEntry id="ListaTiposPessoa" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoCliente']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//FRAME[@name='principal']//INPUT[@id='txtCPF']" />
+      <ObjectMapEntry id="ValeTrocaEmitido" locator="//FRAME[@name='principal']//DIV[@textContents='EMITIDO']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Login" locator="//BrowserWindow">
+      <ObjectMapEntry id="BotaoEntrar" locator="//FRAME[@name='principal']//BUTTON[@id='btnLogin']" />
+      <ObjectMapEntry id="Senha" locator="//FRAME[@name='principal']//INPUT[@id='txtSenha']" />
+      <ObjectMapEntry id="Usuario" locator="//FRAME[@name='principal']//INPUT[@id='txtLogin']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="000MenuManutencao" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Manutenções']" />
+      <ObjectMapEntry id="001MenuValeTroca" locator="//FRAME[@id='menu']//DIV[@class='itemMenu' and @text='Vale-Troca']" />
+      <ObjectMapEntry id="001SubMenu000ValeTroca" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Vale-Troca']" />
+      <ObjectMapEntry id="001SubMenu001Relatorios" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Relatórios']" />
+      <ObjectMapEntry id="001SubMenu001ValesNaoUtilizados" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Vales não Utilizados']" />
+    </ObjectMapEntry>
+  </ObjectMapEntry>
+</ObjectMap>
