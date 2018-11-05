@@ -8,6 +8,33 @@
       <ObjectMapEntry id="NumeroDocumento" locator="//FRAME[@name='principal']//INPUT[@id='txtCPF']" />
       <ObjectMapEntry id="ValeTrocaEmitido" locator="//FRAME[@name='principal']//DIV[@textContents='EMITIDO']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="001TelaCadastroConveniado" locator="//BrowserWindow">
+      <ObjectMapEntry id="Bairro" locator="//FRAME[@name='principal']//INPUT[@id='txtBairro']" />
+      <ObjectMapEntry id="BotaoOKConfirmCad" locator="//FRAME[@name='principal']//BUTTON[@textContents='OK']" />
+      <ObjectMapEntry id="BotaoSalvar" locator="//FRAME[@name='principal']//INPUT[@id='btnSalvar']" />
+      <ObjectMapEntry id="Cep" locator="//FRAME[@name='principal']//INPUT[@id='txtCep']" />
+      <ObjectMapEntry id="CheckParceiro" locator="//FRAME[@name='principal']//INPUT[@id='chkParceiro']" />
+      <ObjectMapEntry id="CheckPointCadastro" locator="//FRAME[@name='principal']//DIV[@class='ajs-content']/TABLE[@Text='Operação realizada com sucesso!']" />
+      <ObjectMapEntry id="Cidade" locator="//FRAME[@name='principal']//INPUT[@id='txtCidade']" />
+      <ObjectMapEntry id="Complemento" locator="//FRAME[@name='principal']//INPUT[@id='txtComplemento']" />
+      <ObjectMapEntry id="DataNascimento" locator="//FRAME[@name='principal']//INPUT[@id='txtNascimento']" />
+      <ObjectMapEntry id="DD1" locator="//FRAME[@name='principal']//INPUT[@id='txtDDD1']" />
+      <ObjectMapEntry id="Email" locator="//FRAME[@name='principal']//INPUT[@id='txtEmail']" />
+      <ObjectMapEntry id="ListaPaisOrigem" locator="//FRAME[@name='principal']//SELECT[@id='cboPaisOrigem']" />
+      <ObjectMapEntry id="ListaProfissoes" locator="//FRAME[@name='principal']//SELECT[@id='cboProfissao']" />
+      <ObjectMapEntry id="ListaTipoConvenio" locator="//FRAME[@name='principal']//SELECT[@id='cmbConvenio']" />
+      <ObjectMapEntry id="ListaTipoPessoa" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoPessoa']" />
+      <ObjectMapEntry id="Logradouro" locator="//FRAME[@name='principal']//INPUT[@id='txtLogradouro']" />
+      <ObjectMapEntry id="NomeCliente" locator="//FRAME[@name='principal']//INPUT[@id='txtNome']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//FRAME[@name='principal']//INPUT[@id='txtCPF']" />
+      <ObjectMapEntry id="NumeroResidencia" locator="//FRAME[@name='principal']//INPUT[@id='txtNumero']" />
+      <ObjectMapEntry id="OrgaoEmissor" locator="//FRAME[@name='principal']//INPUT[@id='txtOrgaoEmissor']" />
+      <ObjectMapEntry id="Ramal" locator="//FRAME[@name='principal']//INPUT[@id='txtRamal1']" />
+      <ObjectMapEntry id="RG" locator="//FRAME[@name='principal']//INPUT[@id='txtRG']" />
+      <ObjectMapEntry id="Telefone1" locator="//FRAME[@name='principal']//INPUT[@id='txtFone1']" />
+      <ObjectMapEntry id="TipoDocEstrangeiro" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoDocumento']" />
+      <ObjectMapEntry id="UF" locator="//FRAME[@name='principal']//SELECT[@id='cboUF']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="Login" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoEntrar" locator="//FRAME[@name='principal']//BUTTON[@id='btnLogin']" />
       <ObjectMapEntry id="Senha" locator="//FRAME[@name='principal']//INPUT[@id='txtSenha']" />
@@ -19,6 +46,9 @@
       <ObjectMapEntry id="001SubMenu000ValeTroca" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Vale-Troca']" />
       <ObjectMapEntry id="001SubMenu001Relatorios" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Relatórios']" />
       <ObjectMapEntry id="001SubMenu001ValesNaoUtilizados" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Vales não Utilizados']" />
+      <ObjectMapEntry id="001SubMenu002GestaoConveniado" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Gestão Conveniado']" />
+      <ObjectMapEntry id="002MenuConvenio" locator="//FRAME[@id='menu']//DIV[@class='itemMenu' and @text='Convênio']" />
+      <ObjectMapEntry id="002SubMenu002CadastroConveniado" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Cadastro Conveniado']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>
