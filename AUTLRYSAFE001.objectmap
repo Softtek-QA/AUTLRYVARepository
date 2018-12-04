@@ -30,10 +30,28 @@
       <ObjectMapEntry id="NumeroResidencia" locator="//FRAME[@name='principal']//INPUT[@id='txtNumero']" />
       <ObjectMapEntry id="OrgaoEmissor" locator="//FRAME[@name='principal']//INPUT[@id='txtOrgaoEmissor']" />
       <ObjectMapEntry id="Ramal" locator="//FRAME[@name='principal']//INPUT[@id='txtRamal1']" />
+      <ObjectMapEntry id="RazaoSocial" locator="//FRAME[@name='principal']//INPUT[@id='txtRazaoSocial']" />
       <ObjectMapEntry id="RG" locator="//FRAME[@name='principal']//INPUT[@id='txtRG']" />
       <ObjectMapEntry id="Telefone1" locator="//FRAME[@name='principal']//INPUT[@id='txtFone1']" />
       <ObjectMapEntry id="TipoDocEstrangeiro" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoDocumento']" />
       <ObjectMapEntry id="UF" locator="//FRAME[@name='principal']//SELECT[@id='cboUF']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="002TelaAssocClientConveniado" locator="//BrowserWindow">
+      <ObjectMapEntry id="001TelaConfirmGerVoucher" locator="//FRAME[@name='principal']//DIV[@class='ajs-dialog']">
+        <ObjectMapEntry id="BotaoOK" locator="//BUTTON[@textContents='OK']" />
+        <ObjectMapEntry id="MsgConfirmVoucher" locator="//SPAN[@textContents='Confirma geração do *']" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="002TelaDetalhesVoucher" locator="//FRAME[@name='principal']">
+        <ObjectMapEntry id="BotaoFechar" locator="//INPUT[@id='btnFechar']" />
+        <ObjectMapEntry id="CodigoBarra" locator="//IMG[@src='http://10.56.96.170/*'][2]" />
+      </ObjectMapEntry>
+      <ObjectMapEntry id="BotaoGerar" locator="//FRAME[@name='principal']//INPUT[@id='btnGerar']" />
+      <ObjectMapEntry id="ListaLojas" locator="//FRAME[@name='principal']//SELECT[@id='cboLoja']" />
+      <ObjectMapEntry id="ListaTipoConvenio" locator="//FRAME[@name='principal']//SELECT[@id='cmbConvenio']" />
+      <ObjectMapEntry id="ListaTipoPessoa" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoPessoa']" />
+      <ObjectMapEntry id="NumeroDocumento" locator="//FRAME[@name='principal']//INPUT[@id='txtNumDoc']" />
+      <ObjectMapEntry id="Observacoes" locator="//FRAME[@name='principal']//TEXTAREA[@id='txtObservacao']" />
+      <ObjectMapEntry id="ValorVoucher" locator="//FRAME[@name='principal']//INPUT[@id='txtValor']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="Login" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoEntrar" locator="//FRAME[@name='principal']//BUTTON[@id='btnLogin']" />
@@ -49,6 +67,9 @@
       <ObjectMapEntry id="001SubMenu002GestaoConveniado" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Gestão Conveniado']" />
       <ObjectMapEntry id="002MenuConvenio" locator="//FRAME[@id='menu']//DIV[@class='itemMenu' and @text='Convênio']" />
       <ObjectMapEntry id="002SubMenu002CadastroConveniado" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Cadastro Conveniado']" />
+      <ObjectMapEntry id="003MenuConvenioPrePago" locator="//FRAME[@id='menu']//DIV[@class='itemMenu' and @text='Convenio Pre-Pago']" />
+      <ObjectMapEntry id="003SubMenu002GestConvenio" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Gestão Convênio']" />
+      <ObjectMapEntry id="004SubMenu003GerarVoucher" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Geração de Voucher']" />
     </ObjectMapEntry>
   </ObjectMapEntry>
 </ObjectMap>
