@@ -1,5 +1,5 @@
 <ObjectMap version="1">
-  <ObjectMapEntry id="SAFE" locator="//BrowserApplication">
+  <ObjectMapEntry id="SAFE" locator="//BrowserApplication[@caption='SAFE*Retaguarda*']">
     <ObjectMapEntry id="000TelaValeTroca" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoPesquisar" locator="//FRAME[@name='principal']//SPAN[@id='btnPesquisarTexto']" />
       <ObjectMapEntry id="ContainerValesTroca" locator="" />

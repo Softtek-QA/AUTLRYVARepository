@@ -331,6 +331,7 @@
     <ObjectMapEntry id="PesquisaClienteCadastrado" locator="//BrowserWindow">
       <ObjectMapEntry id="AdicionarNovo" locator="//A[@textContents='Adicionar Novo']" />
       <ObjectMapEntry id="BotaoPesquisarCliente" locator="//I[@class='glyph glyph-magnifie*'][2]" />
+      <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='document']" />
       <ObjectMapEntry id="CampoPesquisaCliente" locator="//INPUT[@name='document']" />
       <ObjectMapEntry id="ClientePesquisado" locator="//LI[@class='list-item']" />
       <ObjectMapEntry id="IconeModoDePesquisa" locator="//DIV[@class='caret']" />
@@ -356,6 +357,10 @@
       <ObjectMapEntry id="Salvar" locator="//BUTTON[@name='button']" />
       <ObjectMapEntry id="SubMenuPJExcecao" locator="//STRONG[@textContents='PJ Exceção']" />
       <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='juridicalPerson-cont*']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="PopupInitHomolog1" locator="">
+      <ObjectMapEntry id="AlertaAmbienteHomolog" locator="//AccessibleControl[@caption='Erro ao carregar o chat, tente novamente mais tarde']" />
+      <ObjectMapEntry id="BotaoOk" locator="//AccessibleControl[@caption='OK']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaCliente" locator="//BrowserWindow">
       <ObjectMapEntry id="AvancarTelaCliente" locator="//BUTTON[@textContents='Avançar']" />
@@ -401,6 +406,7 @@
       <ObjectMapEntry id="ValorValeTroca" locator="//SELECT[@id='payment-voucher-1']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaLoginHomog1" locator="//BrowserWindow">
+      <ObjectMapEntry id="BTTBotaoEntrar" locator="//DomElement[@Text='Entrar']" />
       <ObjectMapEntry id="EntrarLogin" locator="//BUTTON[@textContents='Entrar']" />
       <ObjectMapEntry id="EntrarMenuInicial" locator="//A[@textContents='Entrar']" />
       <ObjectMapEntry id="SelecionarLoja" locator="//SELECT[@id='leroy-region']" />
