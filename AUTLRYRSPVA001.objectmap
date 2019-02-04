@@ -255,7 +255,8 @@
       <ObjectMapEntry id="NumeroLocal" locator="//INPUT[@id='numero-0-pj']" />
       <ObjectMapEntry id="NumeroTelefone" locator="//INPUT[@id='telefone-0-pj']" />
       <ObjectMapEntry id="RadioMalaDireta" locator="//INPUT[@id='mala-direta-nao-pj']" />
-      <ObjectMapEntry id="RadioNovidades" locator="//INPUT[@id='accept-notify-false-*']" />
+      <ObjectMapEntry id="RadioMalaDireta2" locator="//INPUT[@id='mala-direta-sim-pj']" />
+      <ObjectMapEntry id="RadioNovidades" locator="//INPUT[@id='accept-notify-true-0-pj']" />
       <ObjectMapEntry id="RazaoSocial" locator="//INPUT[@id='razaosocial-pj']" />
       <ObjectMapEntry id="Referencia" locator="//INPUT[@id='referencia-0-pj']" />
       <ObjectMapEntry id="Rua" locator="//INPUT[@id='rua-0-pj']" />
@@ -375,11 +376,13 @@
     </ObjectMapEntry>
     <ObjectMapEntry id="PesquisaCEP" locator="//BrowserWindow">
       <ObjectMapEntry id="Bairro" locator="//INPUT[@id='district']" />
+      <ObjectMapEntry id="BotaoConfirmar" locator="//DomButton[@Text='Confirmar']" />
       <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
       <ObjectMapEntry id="Cidade" locator="//INPUT[@id='local']" />
       <ObjectMapEntry id="Endereco" locator="//INPUT[@id='street']" />
       <ObjectMapEntry id="Fechar" locator="//I[@class='modal-close glyph gl*']" />
       <ObjectMapEntry id="ItemResultadoPesqSelecionado" locator="//FORM[@class='col-xs-12']/DIV[@class='row'][5]/DIV[@class='col-xs-12 margin-top']//LI[2]" />
+      <ObjectMapEntry id="MensagemSistemaIndisponivel" locator="//DomElement[@Text='Não foi possível realizar sua pesquisa, tente mais tarde*']" />
       <ObjectMapEntry id="MsgStatusCEP" locator="//STRONG[@textContents='Não foi possível pes*']" />
       <ObjectMapEntry id="UF" locator="//SELECT[@id='uf']" />
     </ObjectMapEntry>
@@ -519,6 +522,7 @@
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaPedidos" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoDocsRelacionados" locator="//UL[@class='list-actions']//SPAN[@class='glyph glyph-eye']" />
+      <ObjectMapEntry id="BotaoDocsRelExibir" locator="//A[@textContents='Ver Documentos Vincu*']" />
       <ObjectMapEntry id="BotaoFiltroPedido" locator="//DIV[@class='caret']" />
       <ObjectMapEntry id="Buscar" locator="//BUTTON[@textContents='Buscar']" />
       <ObjectMapEntry id="BuscarPedido" locator="//DIV[@data-trigger='advancedSearch']" />
@@ -533,6 +537,7 @@
         <ObjectMapEntry id="OpcaoNumeroPedidoVenda" locator="//INPUT[@id='order_search_order_n*']" />
       </ObjectMapEntry>
       <ObjectMapEntry id="PrecosVigentes" locator="//BUTTON[@textContents='Utilizar preços vige*']" />
+      <ObjectMapEntry id="TituloDocsVinculados" locator="//DIV[@textContents='Documentos Vinculado*']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaPesquisaBoitata" locator="//BrowserWindow">
       <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@textContents='Adicionar ao carrinh*']" />
