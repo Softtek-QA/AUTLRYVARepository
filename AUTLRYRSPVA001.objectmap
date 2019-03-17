@@ -599,6 +599,15 @@
       <ObjectMapEntry id="CampoSelecaoLoja" locator="//INPUT[@class='select2-search__fiel*']" />
       <ObjectMapEntry id="SelecionarLoja" locator="//B[@role='presentation']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="TL011BoitataTelaPedidosInicial" locator="//BrowserWindow">
+      <ObjectMapEntry id="AdicionarItemCarrinho" locator="//A[@textContents='Adicionar ao carrinh*']" />
+      <ObjectMapEntry id="BotaoPesquisar" locator="//I[@class='align-middle glyph g*']" />
+      <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='term']" />
+      <ObjectMapEntry id="QuantidadeItem" locator="//INPUT[@data-quantity='input']" />
+    </ObjectMapEntry>
+    <ObjectMapEntry id="TL011TelaInicialVA" locator="//BrowserWindow">
+      <ObjectMapEntry id="CriarCarrinho" locator="//A[@textContents='Criar carrinho...']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="Validacao" locator="//BrowserWindow">
       <ObjectMapEntry id="CadastroFinalizado" locator="//DIV[@data-component='order/copy-order-cli*']" />
       <ObjectMapEntry id="CEPInvalido" locator="//P[@textContents='Não foi encontrado o*']" />
