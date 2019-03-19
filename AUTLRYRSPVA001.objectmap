@@ -602,7 +602,7 @@
     <ObjectMapEntry id="TL011BoitataTelaPedidosInicial" locator="//BrowserWindow">
       <ObjectMapEntry id="AdicionarItemCarrinho" locator="//A[@textContents='Adicionar ao carrinh*']" />
       <ObjectMapEntry id="BotaoPesquisar" locator="//I[@class='align-middle glyph g*']" />
-      <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='term']" />
+      <ObjectMapEntry id="CampoPesquisa" locator="//INPUT[@name='term' and @type='text']" />
       <ObjectMapEntry id="QuantidadeItem" locator="//INPUT[@data-quantity='input']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TL011TelaInicialVA" locator="//BrowserWindow">
