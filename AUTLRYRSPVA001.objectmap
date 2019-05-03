@@ -621,7 +621,7 @@
       <ObjectMapEntry id="BuscarPedido" locator="//DomButton[@textContents='Buscar' and @type='submit']" />
       <ObjectMapEntry id="CopiaPedido" locator="//DomElement[@class='glyph glyph-clone']" />
       <ObjectMapEntry id="DocumentosVinculados" locator="//DomElement[@class='glyph glyph-eye']" />
-      <ObjectMapEntry id="EditarPedido" locator="//SPAN[@class='glyph glyph-pencil']" />
+      <ObjectMapEntry id="EditarPedido" locator="//DomElement[@data-trigger='edit']" />
       <ObjectMapEntry id="ImprimirNota" locator="//SPAN[@class='glyph glyph-printer']" />
       <ObjectMapEntry id="LimparPesquisa" locator="//BUTTON[@textContents='Limpar campos']" />
       <ObjectMapEntry id="NumeroPedido" locator="//DomTextField[@name='order_number']" />
