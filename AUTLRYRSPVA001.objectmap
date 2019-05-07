@@ -5,10 +5,14 @@
       <ObjectMapEntry id="AceitaNovidadesNao" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-nao']" />
       <ObjectMapEntry id="AceitaNovidadesSim" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-sim']" />
       <ObjectMapEntry id="Adicionar meio de pa" locator="//BUTTON[@textContents='Adicionar meio de pa*']" />
+      <ObjectMapEntry id="AdicionarComentario" locator="//BUTTON[@textContents='Adicionar']" />
+      <ObjectMapEntry id="AdicionarOcorrencia" locator="//BUTTON[@textContents='Adicionar ocorrência']" />
       <ObjectMapEntry id="Aprovar" locator="//BUTTON[@textContents='Aprovar']" />
       <ObjectMapEntry id="Avançar" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="BotaoSalvar" locator="//BUTTON[@textContents='Salvar']" />
+      <ObjectMapEntry id="BuscaAvancadaNumeroPedido" locator="//INPUT[@id='number']" />
       <ObjectMapEntry id="Buscar pedidos" locator="//A[@textContents='Buscar pedidos']" />
+      <ObjectMapEntry id="CancelarPopUp" locator="//BUTTON[@textContents='Cancelar']" />
       <ObjectMapEntry id="CategoriaDadosBasicos" locator="//LI[@class='list-item customer-s*'][1]">
         <ObjectMapEntry id="AceitaNovidadesNao" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-nao']" />
         <ObjectMapEntry id="AceitaNovidadesSim" locator="//DomRadioButton[@id='legalPerson.aceptyNotifyme-sim']" />
@@ -26,6 +30,7 @@
         <ObjectMapEntry id="RG" locator="//INPUT[@id='legalPerson.rg']" />
         <ObjectMapEntry id="Sexo" locator="//SELECT[@id='legalPerson.gender']" />
       </ObjectMapEntry>
+      <ObjectMapEntry id="ComboTipoFrete" locator="//SELECT[@id='deliveryOptionType-0']" />
       <ObjectMapEntry id="Confirmar" locator="//BUTTON[@textContents='Confirmar']" />
       <ObjectMapEntry id="ConfirmarEncomenda" locator="//BUTTON[@textContents='Confirmar']" />
       <ObjectMapEntry id="CopiaPedido" locator="//SPAN[@class='glyph glyph-clone']" />
@@ -36,14 +41,20 @@
       <ObjectMapEntry id="DadosTelefonicos" locator="//SPAN[@textContents='Dados Telef*']" />
       <ObjectMapEntry id="DefinirLote" locator="//BUTTON[@id='batch-0']" />
       <ObjectMapEntry id="deliveryOptionShift-" locator="//SELECT[@id='deliveryOptionShift-*'][2]" />
+      <ObjectMapEntry id="DescontoPorcentagem_SECAO2" locator="//INPUT[@class='input input-section']" />
+      <ObjectMapEntry id="DescricaoOcorrencia" locator="//TEXTAREA[@id='occurrence']" />
       <ObjectMapEntry id="Devolvido" locator="//LI[@textContents='Devolvido']" />
       <ObjectMapEntry id="eanOrCode" locator="//INPUT[@name='eanOrCode']" />
+      <ObjectMapEntry id="EditarPedido" locator="//SPAN[@class='glyph glyph-pencil']" />
       <ObjectMapEntry id="em CD SAO BERNARDO" locator="//BUTTON[@textContents='em CD SAO BERNARDO']" />
       <ObjectMapEntry id="Email" locator="//INPUT[@id='legalPerson.e-mail']" />
+      <ObjectMapEntry id="FechaJanelaComentario" locator="//I[@class='modal-close glyph gl*']" />
+      <ObjectMapEntry id="FilialEstoque2" locator="//SELECT[@id='deliveryOptionDeposi*']" />
       <ObjectMapEntry id="Finalizar" locator="//BUTTON[@textContents='Finalizar']" />
       <ObjectMapEntry id="FlagPagamentoLoja" locator="//INPUT[@id='store-payment-option']" />
       <ObjectMapEntry id="gender-pf" locator="//SELECT[@id='gender-pf']" />
       <ObjectMapEntry id="InscricaoEstadual" locator="//INPUT[@id='inscricaoestadual-pf']" />
+      <ObjectMapEntry id="IrParaAprovacao" locator="//A[@textContents='Ir para aprovação co*']" />
       <ObjectMapEntry id="LoteEspecifico" locator="//LI[@class='list-item color-prim*']" />
       <ObjectMapEntry id="MaisSecao" locator="//A[@href='javascript:void(0)']" />
       <ObjectMapEntry id="ManterCondicoes" locator="//BUTTON[@textContents='Manter condição come*']" />
@@ -57,10 +68,12 @@
       <ObjectMapEntry id="PesquisaLote" locator="//BUTTON[@class='glyph glyph-magnifie*']" />
       <ObjectMapEntry id="PesquisaPedid" locator="//BUTTON[@class='button button-primar*'][2]" />
       <ObjectMapEntry id="Porte" locator="//SELECT[@id='juridicalPerson-port*']" />
+      <ObjectMapEntry id="ProsseguirSemServico" locator="//BUTTON[@textContents='Prosseguir sem servi*']" />
       <ObjectMapEntry id="Ramo" locator="//SELECT[@id='juridicalPerson-ramo']" />
       <ObjectMapEntry id="RelacionamentoLeroyMerlin" locator="//SPAN[@textContents='Relacionamento Leroy*']" />
       <ObjectMapEntry id="RemoverItem" locator="//I[@class='glyph glyph-trash-ca*']" />
       <ObjectMapEntry id="RemoverSecao" locator="//OL[@class='align-left']" />
+      <ObjectMapEntry id="RNE" locator="//INPUT[@id='rg-pe']" />
       <ObjectMapEntry id="Sim" locator="//BUTTON[@textContents='Sim']" />
       <ObjectMapEntry id="Status" locator="//SELECT[@id='status']" />
       <ObjectMapEntry id="StatusPesq" locator="//SPAN[@class='select2 select2-cont*'][4]/SPAN[@class='selection']" />
@@ -112,6 +125,7 @@
           <ObjectMapEntry id="Bairro2" locator="//INPUT[@id='bairro-1-pf']" />
           <ObjectMapEntry id="CEP" locator="//INPUT[@id='cep-0-pf']" />
           <ObjectMapEntry id="CEP2" locator="//INPUT[@id='cep-1-pf']" />
+          <ObjectMapEntry id="checkSim" locator="//LABEL[@textContents='Sim']" />
           <ObjectMapEntry id="Cidade" locator="//INPUT[@id='cidade-0-pf']" />
           <ObjectMapEntry id="Cidade2" locator="//INPUT[@id='cidade-1-pf']" />
           <ObjectMapEntry id="ClienteEstrangeiro" locator="//INPUT[@id='foreign']" />
@@ -272,6 +286,7 @@
       <ObjectMapEntry id="Complemento" locator="//INPUT[@id='complemento-0-pj']" />
       <ObjectMapEntry id="Departamento" locator="//INPUT[@id='contact-departament-*']" />
       <ObjectMapEntry id="EmailContato" locator="//INPUT[@id='contact-email-0-pj']" />
+      <ObjectMapEntry id="emailNFE" locator="//LABEL[@textContents='E-mail NFE']" />
       <ObjectMapEntry id="Endereco" locator="//SELECT[@id='tipo-imovel-0-pj']" />
       <ObjectMapEntry id="InscricaoEstadual" locator="//INPUT[@id='inscricaoestadual-pj']" />
       <ObjectMapEntry id="InscricaoMunicipal" locator="//INPUT[@id='inscricaomunicipal-p*']" />
@@ -305,13 +320,14 @@
       <ObjectMapEntry id="Confirmar" locator="//BUTTON[@class='button button-primar*'][2]" />
       <ObjectMapEntry id="Desconto_FRETE" locator="//INPUT[@name='discountValue']" />
       <ObjectMapEntry id="DescontoPorcentagem_ITEM" locator="//INPUT[@id='value-discount-0']" />
-      <ObjectMapEntry id="DescontoPorcentagem_SECAO" locator="//INPUT[@id='value-discount-03']" />
+      <ObjectMapEntry id="DescontoPorcentagem_SECAO" locator="//INPUT[@id='value-discount-10']" />
       <ObjectMapEntry id="DescontoPorcentagem_TOTAL" locator="//INPUT[@id='value-discount-cart']" />
       <ObjectMapEntry id="EscolherTipoDesconto_ITEM" locator="//SPAN[@class='switch-control']" />
       <ObjectMapEntry id="EscolherTipoDesconto_SECAO" locator="//SPAN[@class='switch-control'][1]" />
       <ObjectMapEntry id="EscolherTipoDesconto_TOTAL" locator="//SPAN[@class='switch-control']" />
       <ObjectMapEntry id="Mensagem" locator="//DIV[@data-silk-uid='s8ehtsedjpxz2ub8xxg70j25zm']" />
       <ObjectMapEntry id="Motivo_FRETE" locator="//SELECT[@name='discountCategory']" />
+      <ObjectMapEntry id="Motivo_ITEM" locator="//SELECT[@class='select']" />
       <ObjectMapEntry id="Motivo_ITEM" locator="//SELECT[@class='select']" />
       <ObjectMapEntry id="Motivo_SECAO" locator="//SELECT[@class='select']" />
       <ObjectMapEntry id="Motivo_TOTAL" locator="//SELECT[@class='select']" />
@@ -358,6 +374,7 @@
       <ObjectMapEntry id="AdicionarGarantiaEstendida" locator="//BUTTON[@data-service-code='49996100']" />
       <ObjectMapEntry id="AdicionarServico" locator="//BUTTON[@data-product-list='1'][2]" />
       <ObjectMapEntry id="Avancar" locator="//A[@textContents='Avançar']" />
+      <ObjectMapEntry id="BotaoAddGarantiaExtendida" locator="//DIV[@class='service-info'][1]//BUTTON[@class='button button-primary button-full button-overflow']" />
       <ObjectMapEntry id="Garantia Estendida" locator="//A[@textContents='Garantia Estendida']" />
       <ObjectMapEntry id="GarantiaEstendida" locator="//A[@textContents='Garantia Estendida']" />
       <ObjectMapEntry id="InserirTEL" locator="//BUTTON[@textContents='Enviar']" />
@@ -373,7 +390,7 @@
       <ObjectMapEntry id="AprovarDesconta" locator="//BUTTON[@textContents='Aprovar']" />
       <ObjectMapEntry id="AprovarSemAntiFraude" locator="//BUTTON[@textContents='Aprovar sem Antifrau*']" />
       <ObjectMapEntry id="BotaoPesquisaDesconto" locator="//I[@class='glyph glyph-magnifie*'][2]" />
-      <ObjectMapEntry id="BotaoPesquisar" locator="//I[@class='glyph glyph-magnifie*'][2]" />
+      <ObjectMapEntry id="BotaoPesquisar" locator="//I[@class='glyph glyph-magnifie*'][3]" />
       <ObjectMapEntry id="Desconto" locator="//LABEL[@textContents='Desconto']" />
       <ObjectMapEntry id="EnviarAntiFraude" locator="//BUTTON[@textContents='Enviar para antifrau*']" />
       <ObjectMapEntry id="LiberacoesPendentes" locator="//STRONG[@textContents='Liberações Pendentes']" />
@@ -405,8 +422,11 @@
     <ObjectMapEntry id="painel" locator="//AccessibleControl[@role='painel'][4]" />
     <ObjectMapEntry id="Pedidos" locator="//BrowserWindow">
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@textContents='Avançar']" />
+      <ObjectMapEntry id="ComboStatus" locator="//INPUT[@class='select2-search__fiel*'][2]" />
       <ObjectMapEntry id="ConverterOrcamento" locator="//BUTTON[@id='btgenerateQuote']" />
       <ObjectMapEntry id="ConverterPedido" locator="//BUTTON[@id='btgenerateorder']" />
+      <ObjectMapEntry id="DataCriacaoFim" locator="//INPUT[@name='finalDate']" />
+      <ObjectMapEntry id="DataCriacaoIni" locator="//INPUT[@name='beginDate']" />
       <ObjectMapEntry id="MaisQtd" locator="//BUTTON[@textContents='+']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="PesquisaCEP" locator="//BrowserWindow">
@@ -482,6 +502,7 @@
       <ObjectMapEntry id="Comentario" locator="//TEXTAREA[@name='comment']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaFinalPedidos" locator="//BrowserWindow">
+      <ObjectMapEntry id="NumeroCarrinho" locator="//SPAN[@class='color-neutral']" />
       <ObjectMapEntry id="NumeroOrcamento" locator="//H3[@textContents='Orçamento *']" />
       <ObjectMapEntry id="NumeroPedido" locator="//H3[@textContents='Pedido *']" />
     </ObjectMapEntry>
@@ -518,7 +539,7 @@
       <ObjectMapEntry id="NumeroCarrinho" locator="//DIV[@class='margin-y-small']" />
       <ObjectMapEntry id="NumeroCartao" locator="//INPUT[@id='payment-card-number-*']" />
       <ObjectMapEntry id="PagarNaLoja" locator="//INPUT[@id='store-payment-option']" />
-      <ObjectMapEntry id="PesquisarProduto" locator="//BUTTON[@textContents='11+']" />
+      <ObjectMapEntry id="PesquisarProduto" locator="//BUTTON[@textContents='+' and @type='submit']" />
       <ObjectMapEntry id="PlanoPagamento" locator="//SELECT[@id='payment-plan-0']" />
       <ObjectMapEntry id="PlanoPagamento2" locator="//SELECT[@id='payment-plan-1']" />
       <ObjectMapEntry id="PopUpConfirmar" locator="//DIV[@class='modal-content modal-*']" />
@@ -545,7 +566,7 @@
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@id='id-bt-advanced']" />
       <ObjectMapEntry id="CaixaConfirmarVT" locator="//DIV[@class='modal-content modal-*']" />
       <ObjectMapEntry id="Codigo" locator="//INPUT[@id='payment-card-code-0']" />
-      <ObjectMapEntry id="Codigo_Voucher_VALETROCA" locator="//SELECT[@id='payment-voucher-1']" />
+      <ObjectMapEntry id="Codigo_Voucher_VALETROCA" locator="//SELECT[@name='paymentModes[0].voucherCode']" />
       <ObjectMapEntry id="Codigo_Voucher_VALETROCA_01" locator="//SELECT[@id='payment-voucher-0']" />
       <ObjectMapEntry id="ConfirmarENao" locator="//BUTTON[@textContents='Não']" />
       <ObjectMapEntry id="ConfirmarSim" locator="//BUTTON[@textContents='Sim']" />
@@ -586,8 +607,22 @@
       <ObjectMapEntry id="TituloDocsVinculados" locator="//DIV[@textContents='Documentos Vinculado*']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaPesquisaBoitata" locator="//BrowserWindow">
-      <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@textContents='Adicionar ao carrinh*']" />
+      <ObjectMapEntry id="BtAddComprar" locator="//A[@class='buy-button button bu*']" />
+      <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@class='cart-button action-link m-menu-item']" />
+      <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//A[@textContents='Adicionar ao carrinh*']" />
+      <ObjectMapEntry id="BtContinuarPagamento" locator="//BUTTON[@textContents='Continuar Pagamento']" />
+      <ObjectMapEntry id="BtFinalizaCompra" locator="//A[@textContents='Finalizar Compra »'][2]" />
+      <ObjectMapEntry id="BtFinalizaPagamento" locator="//BUTTON[@textContents='Finalizar Pagamento']" />
+      <ObjectMapEntry id="BtLeroySuperior" locator="//A[@class='leroy-logo']" />
+      <ObjectMapEntry id="BtPesquisaLocalidade" locator="//SELECT[@id='leroy-region']" />
+      <ObjectMapEntry id="BtPesquisaMaterial" locator="//BUTTON[@textContents='Buscar']" />
+      <ObjectMapEntry id="BtVoltaCarrinho" locator="//A[@textContents='Voltar para a página*']" />
       <ObjectMapEntry id="MaterialPesquisa" locator="//INPUT[@name='term']" />
+      <ObjectMapEntry id="MaterialPesquisa2" locator="//INPUT[@id='search']" />
+      <ObjectMapEntry id="TxtCVVCartao" locator="//INPUT[@id='security-code']" />
+      <ObjectMapEntry id="TxtNomeCartao" locator="//INPUT[@id='card-name']" />
+      <ObjectMapEntry id="TxtNumeroCartao" locator="//INPUT[@id='card-number']" />
+      <ObjectMapEntry id="TxtValidadeCartao" locator="//INPUT[@id='valid-until']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaResumo" locator="//BrowserWindow">
       <ObjectMapEntry id="FecharPopUp" locator="//I[@class='modal-close glyph gl*']" />
