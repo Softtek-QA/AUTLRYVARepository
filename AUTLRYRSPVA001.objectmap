@@ -614,11 +614,14 @@
       <ObjectMapEntry id="BtFinalizaCompra" locator="//A[@textContents='Finalizar Compra »'][2]" />
       <ObjectMapEntry id="BtFinalizaPagamento" locator="//BUTTON[@textContents='Finalizar Pagamento']" />
       <ObjectMapEntry id="BtLeroySuperior" locator="//A[@class='leroy-logo']" />
+      <ObjectMapEntry id="BtOk" locator="//BUTTON[@textContents='OK']" />
       <ObjectMapEntry id="BtPesquisaLocalidade" locator="//SELECT[@id='leroy-region']" />
       <ObjectMapEntry id="BtPesquisaMaterial" locator="//BUTTON[@textContents='Buscar']" />
       <ObjectMapEntry id="BtVoltaCarrinho" locator="//A[@textContents='Voltar para a página*']" />
+      <ObjectMapEntry id="CepEcommerce" locator="//INPUT[@id='ipt-shipping-cep']" />
       <ObjectMapEntry id="MaterialPesquisa" locator="//INPUT[@name='term']" />
       <ObjectMapEntry id="MaterialPesquisa2" locator="//INPUT[@id='search']" />
+      <ObjectMapEntry id="PopUpFreteECommerce" locator="//DIV[@class='vex-content dialog-c*']" />
       <ObjectMapEntry id="TxtCVVCartao" locator="//INPUT[@id='security-code']" />
       <ObjectMapEntry id="TxtNomeCartao" locator="//INPUT[@id='card-name']" />
       <ObjectMapEntry id="TxtNumeroCartao" locator="//INPUT[@id='card-number']" />
