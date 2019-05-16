@@ -258,8 +258,10 @@
       <ObjectMapEntry id="BotaoPropagSMS" locator="//DIV[@class='col-xs-3 col-sm-2 co*']" />
       <ObjectMapEntry id="CEP" locator="//INPUT[@id='cep-0-foreign']" />
       <ObjectMapEntry id="CheckItemPromocoes" locator="//DIV[@class='col-xs-5']//DomElement[2]//DomRadioButton[1]" />
+      <ObjectMapEntry id="checkSim" locator="//INPUT[@id='novidades-sim-pe']" />
       <ObjectMapEntry id="Cidade" locator="//INPUT[@id='cidade-0-foreign']" />
       <ObjectMapEntry id="Complemento" locator="//INPUT[@id='complemento-0-foreig*']" />
+      <ObjectMapEntry id="DataNascimento" locator="//INPUT[@id='nascimento-pes']" />
       <ObjectMapEntry id="Email" locator="//INPUT[@id='foreignPerson.email']" />
       <ObjectMapEntry id="Estado" locator="//SELECT[@id='estado-0-foreign']" />
       <ObjectMapEntry id="Nome" locator="//INPUT[@id='nome-foreign']" />
