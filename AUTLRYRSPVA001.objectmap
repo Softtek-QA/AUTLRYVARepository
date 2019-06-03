@@ -99,6 +99,7 @@
       <ObjectMapEntry id="AceitarOfertaTelefoneSim" locator="//INPUT[@id='oferta-telefone-sim-*']" />
       <ObjectMapEntry id="AceitarPropagandasSim" locator="//DIV[@class='col-xs-3 col-md-4 co*']" />
       <ObjectMapEntry id="AdicionarNovo" locator="//A[@textContents='Adicionar Novo']" />
+      <ObjectMapEntry id="AdicionarNovoTelefone" locator="//BUTTON[@textContents='Adicionar novo telef*']" />
       <ObjectMapEntry id="AvancarPaginaCadastro" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="AvancarPaginaCadastro2" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="Bairro" locator="//INPUT[@id='bairro-0-pf']" />
@@ -238,6 +239,7 @@
       <ObjectMapEntry id="NumeroCasa2" locator="//INPUT[@id='numero-1-pf']" />
       <ObjectMapEntry id="NumeroDocumento" locator="//INPUT[@id='cpf-cnpj']" />
       <ObjectMapEntry id="NumeroTelefone" locator="//INPUT[@id='telefone-0-pf']" />
+      <ObjectMapEntry id="NumeroTelefone2" locator="//INPUT[@id='telefone-1-pf']" />
       <ObjectMapEntry id="razaosocial-pj" locator="//INPUT[@id='razaosocial-pj']" />
       <ObjectMapEntry id="Referencia" locator="//INPUT[@id='referencia-0-pf']" />
       <ObjectMapEntry id="Referencia2" locator="//INPUT[@id='referencia-1-pf']" />
@@ -250,6 +252,7 @@
       <ObjectMapEntry id="TipoImovelResidencial" locator="//SELECT[@id='tipo-residencia-0-pf']" />
       <ObjectMapEntry id="TipoImovelResidencial2" locator="//SELECT[@id='tipo-residencia_1']" />
       <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='tipo-0-pf']" />
+      <ObjectMapEntry id="TipoTelefone2" locator="//SELECT[@id='tipo-1-pf']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="CadastroClientesDocs" locator="//BrowserWindow">
       <ObjectMapEntry id="ClienteEstrangeiro" locator="//INPUT[@id='foreign']" />
