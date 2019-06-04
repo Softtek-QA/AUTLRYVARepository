@@ -99,6 +99,7 @@
       <ObjectMapEntry id="AceitarOfertaTelefoneSim" locator="//INPUT[@id='oferta-telefone-sim-*']" />
       <ObjectMapEntry id="AceitarPropagandasSim" locator="//DIV[@class='col-xs-3 col-md-4 co*']" />
       <ObjectMapEntry id="AdicionarNovo" locator="//A[@textContents='Adicionar Novo']" />
+      <ObjectMapEntry id="AdicionarNovoEndereco" locator="//BUTTON[@textContents='Adicionar novo ender*']" />
       <ObjectMapEntry id="AdicionarNovoTelefone" locator="//BUTTON[@textContents='Adicionar novo telef*']" />
       <ObjectMapEntry id="AvancarPaginaCadastro" locator="//BUTTON[@textContents='Avançar']" />
       <ObjectMapEntry id="AvancarPaginaCadastro2" locator="//BUTTON[@textContents='Avançar']" />
@@ -230,6 +231,7 @@
       <ObjectMapEntry id="InscricaoEstadual" locator="//INPUT[@id='inscricaoestadual-pf']" />
       <ObjectMapEntry id="juridicalPerson cont" locator="//INPUT[@id='juridicalPerson.cont*'][4]" />
       <ObjectMapEntry id="lmcontainer" locator="//DIV[@id='lmcontainer']" />
+      <ObjectMapEntry id="MensagemOla" locator="//H4[@textContents='Olá, *']" />
       <ObjectMapEntry id="NaoSeiCEPPesquisa" locator="//BUTTON[@textContents='Não sei meu CEP']" />
       <ObjectMapEntry id="Nome" locator="//INPUT[@id='nome-pf']" />
       <ObjectMapEntry id="nome-foreign" locator="//INPUT[@id='nome-foreign']" />
