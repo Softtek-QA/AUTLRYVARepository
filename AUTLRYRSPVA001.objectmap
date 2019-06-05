@@ -491,7 +491,9 @@
         <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='juridicalPerson-cont*']" />
       </ObjectMapEntry>
       <ObjectMapEntry id="Salvar" locator="//BUTTON[@name='button']" />
+      <ObjectMapEntry id="SMS_Novidades" locator="//LABEL[@textContents='Não']" />
       <ObjectMapEntry id="SubMenuPJExcecao" locator="//STRONG[@textContents='PJ Exceção']" />
+      <ObjectMapEntry id="TelefonePrincipal" locator="//LABEL[@textContents='Telefone principal']" />
       <ObjectMapEntry id="TipoTelefone" locator="//SELECT[@id='juridicalPerson-cont*']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="PopupInitHomolog1" locator="">
