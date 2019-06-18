@@ -58,6 +58,10 @@
       <ObjectMapEntry id="Senha" locator="//FRAME[@name='principal']//INPUT[@id='txtSenha']" />
       <ObjectMapEntry id="Usuario" locator="//FRAME[@name='principal']//INPUT[@id='txtLogin']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="Logout" locator="//BrowserWindow">
+      <ObjectMapEntry id="IconeUsuario" locator="//FRAME[@name='titulo']//IMG[@class='img-circle']" />
+      <ObjectMapEntry id="Sair" locator="//FRAME[@name='principal']//BUTTON[@textContents='Sair']" />
+    </ObjectMapEntry>
     <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
       <ObjectMapEntry id="000MenuManutencao" locator="//FRAME[@id='menu']//DIV[@class='itemMenuInterno' and @text='Manutenções']" />
       <ObjectMapEntry id="001MenuValeTroca" locator="//FRAME[@id='menu']//DIV[@class='itemMenu' and @text='Vale-Troca']" />
