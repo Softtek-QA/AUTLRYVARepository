@@ -2,7 +2,6 @@
   <ObjectMapEntry id="SAFE" locator="//BrowserApplication[@caption='SAFE*Retaguarda*']">
     <ObjectMapEntry id="000TelaValeTroca" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoPesquisar" locator="//FRAME[@name='principal']//SPAN[@id='btnPesquisarTexto']" />
-      <ObjectMapEntry id="ContainerValesTroca" locator="" />
       <ObjectMapEntry id="ListaTiposDocsEstrangeiro" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoDocumento']" />
       <ObjectMapEntry id="ListaTiposPessoa" locator="//FRAME[@name='principal']//SELECT[@id='cboTipoCliente']" />
       <ObjectMapEntry id="NumeroDocumento" locator="//FRAME[@name='principal']//INPUT[@id='txtCPF']" />
@@ -60,6 +59,7 @@
     </ObjectMapEntry>
     <ObjectMapEntry id="Logout" locator="//BrowserWindow">
       <ObjectMapEntry id="IconeUsuario" locator="//FRAME[@name='titulo']//IMG[@class='img-circle']" />
+      <ObjectMapEntry id="PopUp" locator="//I[@class='modal-close glyph gl*']" />
       <ObjectMapEntry id="Sair" locator="//FRAME[@name='principal']//BUTTON[@textContents='Sair']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaInicial" locator="//BrowserWindow">
