@@ -52,6 +52,7 @@
       <ObjectMapEntry id="Observacoes" locator="//FRAME[@name='principal']//TEXTAREA[@id='txtObservacao']" />
       <ObjectMapEntry id="ValorVoucher" locator="//FRAME[@name='principal']//INPUT[@id='txtValor']" />
     </ObjectMapEntry>
+    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption='Fechar'][2]" />
     <ObjectMapEntry id="Login" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoEntrar" locator="//FRAME[@name='principal']//BUTTON[@id='btnLogin']" />
       <ObjectMapEntry id="Senha" locator="//FRAME[@name='principal']//INPUT[@id='txtSenha']" />
