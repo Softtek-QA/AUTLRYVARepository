@@ -1,5 +1,5 @@
 <ObjectMap version="1">
-  <ObjectMapEntry id="SAFE" locator="//BrowserApplication[2]">
+  <ObjectMapEntry id="SAFE2" locator="//BrowserApplication[2]">
     <ObjectMapEntry id="DetalhesValeTroca001" locator="//BrowserWindow">
       <ObjectMapEntry id="NumeroVale" locator="//INPUT[@id='numeroValeTroca']" />
     </ObjectMapEntry>
