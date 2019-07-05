@@ -523,7 +523,7 @@
       <ObjectMapEntry id="AdicionarNovoMeioPag" locator="//BUTTON[@textContents='Adicionar meio de pa*']" />
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@id='id-bt-advanced']" />
       <ObjectMapEntry id="BotaoBuscarPedidos" locator="//SELECT[@id='leroy-region']" />
-      <ObjectMapEntry id="BotaoCarrinho" locator="//I[@class='glyph glyph-cart']" />
+      <ObjectMapEntry id="BotaoCarrinho" locator="//I[@class='glyph glyph-cart sc-*']" />
       <ObjectMapEntry id="BotaoCarrinhoCompra" locator="//DIV[@data-component='cart/dropdown']" />
       <ObjectMapEntry id="BotaoLoja" locator="//I[@class='glyph glyph-location']" />
       <ObjectMapEntry id="BotaoRecuperarOrcamento" locator="//A[@textContents='Recuperar orçamento']" />
@@ -621,7 +621,7 @@
     <ObjectMapEntry id="TelaPesquisaBoitata" locator="//BrowserWindow">
       <ObjectMapEntry id="BtAddComprar" locator="//A[@class='buy-button button bu*']" />
       <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@class='cart-button action-link m-menu-item']" />
-      <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//A[@textContents='Adicionar ao carrinh*']" />
+      <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//TD[@textContents='Descrição'][2]" />
       <ObjectMapEntry id="BtContinuarPagamento" locator="//BUTTON[@textContents='Continuar Pagamento']" />
       <ObjectMapEntry id="BtFinalizaCompra" locator="//A[@textContents='Finalizar Compra »'][2]" />
       <ObjectMapEntry id="BtFinalizaPagamento" locator="//BUTTON[@textContents='Finalizar Pagamento']" />
