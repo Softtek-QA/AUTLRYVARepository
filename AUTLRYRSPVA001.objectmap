@@ -621,7 +621,7 @@
     <ObjectMapEntry id="TelaPesquisaBoitata" locator="//BrowserWindow">
       <ObjectMapEntry id="BtAddComprar" locator="//A[@class='buy-button button bu*']" />
       <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@class='cart-button action-link m-menu-item']" />
-      <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//TD[@textContents='Descrição'][2]" />
+      <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//A[@textContents='Adicionar ao carrinh*']" />
       <ObjectMapEntry id="BtContinuarPagamento" locator="//BUTTON[@textContents='Continuar Pagamento']" />
       <ObjectMapEntry id="BtFinalizaCompra" locator="//A[@textContents='Finalizar Compra »'][2]" />
       <ObjectMapEntry id="BtFinalizaPagamento" locator="//BUTTON[@textContents='Finalizar Pagamento']" />
