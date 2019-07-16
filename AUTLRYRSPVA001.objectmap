@@ -523,7 +523,7 @@
       <ObjectMapEntry id="AdicionarNovoMeioPag" locator="//BUTTON[@textContents='Adicionar meio de pa*']" />
       <ObjectMapEntry id="Avancar" locator="//BUTTON[@id='id-bt-advanced']" />
       <ObjectMapEntry id="BotaoBuscarPedidos" locator="//SELECT[@id='leroy-region']" />
-      <ObjectMapEntry id="BotaoCarrinho" locator="//A[@textContents='Recuperar carrinho']" />
+      <ObjectMapEntry id="BotaoCarrinho" locator="//I[@class='glyph glyph-cart sc-*']" />
       <ObjectMapEntry id="BotaoCarrinhoCompra" locator="//DIV[@data-component='cart/dropdown']" />
       <ObjectMapEntry id="BotaoLoja" locator="//I[@class='glyph glyph-location']" />
       <ObjectMapEntry id="BotaoRecuperarOrcamento" locator="//A[@textContents='Recuperar orçamento']" />

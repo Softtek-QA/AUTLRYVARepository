@@ -1,6 +1,6 @@
 <ObjectMap version="1">
   <ObjectMapEntry id="Boitata" locator="//BrowserApplication">
-    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption='Fechar'][3]" />
+    <ObjectMapEntry id="Fechar" locator="//AccessibleControl[@caption='Fechar'][2]" />
     <ObjectMapEntry id="MenuLogOff" locator="//BrowserWindow">
       <ObjectMapEntry id="BotaoUsuario" locator="//I[@class='glyph glyph-silhouet*']" />
       <ObjectMapEntry id="Sair" locator="//A[@textContents='Sair']" />
