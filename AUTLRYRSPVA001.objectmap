@@ -517,6 +517,7 @@
       <ObjectMapEntry id="NumeroCarrinho" locator="//SPAN[@class='color-neutral']" />
       <ObjectMapEntry id="NumeroOrcamento" locator="//H3[@textContents='Orçamento *']" />
       <ObjectMapEntry id="NumeroPedido" locator="//H3[@textContents='Pedido *']" />
+      <ObjectMapEntry id="NumeroPedidoEcommerce" locator="//STRONG[@textContents='Número do pedido:*']" />
     </ObjectMapEntry>
     <ObjectMapEntry id="TelaInicialLoja" locator="//BrowserWindow">
       <ObjectMapEntry id="AdicionarMeioPagamento" locator="//BUTTON[@textContents='Adicionar meio de pa*']" />
@@ -623,6 +624,7 @@
       <ObjectMapEntry id="BtAdicionarCarrinho" locator="//A[@class='cart-button action-link m-menu-item']" />
       <ObjectMapEntry id="BtAdicionarCarrinho2" locator="//A[@textContents='Adicionar ao carrinh*']" />
       <ObjectMapEntry id="BtContinuarPagamento" locator="//BUTTON[@textContents='Continuar Pagamento']" />
+      <ObjectMapEntry id="BtEscolherMaisProdutos" locator="//A[@textContents='Escolher mais produt*'][2]" />
       <ObjectMapEntry id="BtFinalizaCompra" locator="//A[@textContents='Finalizar Compra »'][2]" />
       <ObjectMapEntry id="BtFinalizaPagamento" locator="//BUTTON[@textContents='Finalizar Pagamento']" />
       <ObjectMapEntry id="BtLeroySuperior" locator="//A[@class='leroy-logo']" />
@@ -634,6 +636,7 @@
       <ObjectMapEntry id="MaterialPesquisa" locator="//INPUT[@name='term']" />
       <ObjectMapEntry id="MaterialPesquisa2" locator="//INPUT[@id='search']" />
       <ObjectMapEntry id="PopUpFreteECommerce" locator="//DIV[@class='vex-content dialog-c*']" />
+      <ObjectMapEntry id="QdeItem" locator="//INPUT[@class='text-input'][2]" />
       <ObjectMapEntry id="TxtCVVCartao" locator="//INPUT[@id='security-code']" />
       <ObjectMapEntry id="TxtNomeCartao" locator="//INPUT[@id='card-name']" />
       <ObjectMapEntry id="TxtNumeroCartao" locator="//INPUT[@id='card-number']" />
